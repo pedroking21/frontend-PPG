@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pedido</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-emprestimo.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE EMPRESTIMO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="idAluno">
+                ID Aluno
+                <br>
+                <input type="text" name="input-id-aluno" placeholder="Insira o ID do aluno" required>
+            </label>
+            <label for="idLivro">
+                ID Livro
+                <br>
+                <input type="text" name="input-id-livro" placeholder="Insira o ID do aluno" required>
+            </label>
+            <label for="data emprestimo">
+                Data Empréstimo
+                <br>
+                <input type="date" name="input-data-emprestimo" placeholder="Insira a data do empréstimo" required>
+            </label>
+            <label for="datadevolucao">
+                Data Devolução
+                <br>
+                <input type="date" name="input-data-devolucao" placeholder="Insira a data da devolução" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="cadastrarEmprestimo()">
+        </form>
+    </div>
+    <script src=""></script>
+</body>
+
+</html>

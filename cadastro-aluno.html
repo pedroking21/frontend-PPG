@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE ALUNO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="nome">
+                Nome
+                <br>
+                <input type="text" name="input-nome-aluno" placeholder="Nome completo" required>
+            </label>
+            <label for="RA">
+                RA
+                <br>
+                <input type="number" name="input-RA-aluno" placeholder="Insira o RA do aluno" required>
+            </label>
+            <label for="datanasc">
+                Data de Nascimento
+                <br>
+                <input type="date" name="input-datanasc-aluno" placeholder="Insira sua data de nascimento" required>
+            </label>
+            <label for="email">
+                Email
+                <br>
+                <input type="text" name="input-email-aluno" placeholder="Insira seu email" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="cadastrarAluno()">
+        </form>
+    </div>
+    <script src="js/cadastroAluno.js"></script>
+</body>
+
+</html

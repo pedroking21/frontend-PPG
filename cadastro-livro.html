@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-livro.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DO LIVRO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="titulo">
+                Titulo
+                <br>
+                <input type="text" name="input-titulo" placeholder="insira o titulo do livro" required>
+            </label>
+            <label for="autor">
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="insira o nome do autor" required>
+            </label>
+            <label for="ano de lançamento">
+                Ano de Lançamento
+                <br>
+                <input type="number" name="input-ano-de-lancamento-carro" placeholder="Insira o ano de lançamento" required>
+            </label>
+            <label for="codigo">
+               Código
+                <br>
+                <input type="number" name="input-codigo" placeholder="Insira o código do livro" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="cadastrarLivro()">
+        </form>
+    </div>
+    <script src="js/cadastroLivro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Emprestimos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="/cadastro-emprestimo.html">ㅤㅤNOVO EMPRESTIMO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>EMPRESTIMOS</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID EMPRESTIMO</th>
+                    <th>ID ALUNO</th>
+                    <th>ID LIVRO</th>
+                    <th>DATA EMPRESTIMO</th>
+                    <th>DATA DEVOLUÇÃO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>01/09/2023</td>
+                    <td>15/09/2023</td>
+                    <td>
+                        <img src="assets/images/pencil-square.svg" alt="editar">
+                        <img src="assets/images/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>05/10/2023</td>
+                    <td>20/10/2023</td>
+                    <td>
+                        <img src="assets/images/pencil-square.svg" alt="editar">
+                        <img src="assets/images/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>10/08/2023</td>
+                    <td>25/08/2023</td>
+                    <td>
+                        <img src="assets/images/pencil-square.svg" alt="editar">
+                        <img src="assets/images/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/listaEmprestimos.js"></script>
+</body>
+</html>
